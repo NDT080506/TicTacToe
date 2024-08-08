@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 96vh;
+    align-content: center;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px black solid;
+    line-height:75px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+#container{
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
